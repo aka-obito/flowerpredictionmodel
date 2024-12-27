@@ -37,7 +37,7 @@ inp_image_buffer = st.file_uploader(label="Upload a flower image (PNG/ JPG)", ty
 if st.button("Classify Flower"):
     if inp_image_buffer is not None:
         # Display uploaded image
-        st.image(inp_image_buffer, caption="Uploaded Image", use_column_width=True)
+        st.image(inp_image_buffer, caption="Uploaded Image", use_container_width=True)
 
         # Preprocess and classify
         preprocessed_image = preprocess_image(image_buffer=inp_image_buffer)
