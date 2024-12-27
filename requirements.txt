@@ -1,4 +1,4 @@
-pip install tensorflow
-pip install numpy
-pip install pillow
-pip install streamlit
+tensorflow
+numpy
+pillow
+streamlit
